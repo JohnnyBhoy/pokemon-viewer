@@ -30,7 +30,7 @@ export default function PokemonDetails() {
                 {/* Header */}
                 <div className="flex flex-col md:flex-row items-center justify-between mb-10 gap-4">
                     <h1 className="text-4xl font-extrabold text-center capitalize tracking-wide flex gap-2">
-                        <img src="/images/pokemon_ball.png" alt="pokemon" className="flex h-12" />
+                        <img src="/pokemon-viewer/images/pokemon_ball.png" alt="pokemon" className="flex h-12" />
                         {selectedPokemon.name}
                     </h1>
 
